@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: MYAPPconversationTEST
+  host: MYAPPconversationTEST
+  disk_quota: 1024M
+  services:
+  - My_Start_Document Conversion-zf
